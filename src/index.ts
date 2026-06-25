@@ -53,11 +53,21 @@ const FEEDS: Record<string, FeedDef> = {
   eos: { title: "Eos", url: "https://eos.org/feed", category: "science", source: "eos.org", description: "Earth & space science news (AGU)" },
   'ieee-spectrum': { title: "IEEE Spectrum", url: "https://spectrum.ieee.org/feeds/feed.rss", category: "science", source: "spectrum.ieee.org", description: "Engineering & applied technology (IEEE)" },
   'plos-biology': { title: "PLOS Biology", url: "https://journals.plos.org/plosbiology/feed/atom", category: "science", source: "journals.plos.org", description: "Open-access biology research" },
-  elife: { title: "eLife", url: "https://elifesciences.org/rss/recent.xml", category: "science", source: "elifesciences.org", description: "Open-access life-science research" },
+  elife: { title: "eLife", url: "https://elifesciences.org/rss/recent.xml", category: "science", source: "elifesciences.org", description: "eLife — open-access life-sciences & biomedicine journal" },
   'physics-world': { title: "Physics World", url: "https://physicsworld.com/feed/", category: "science", source: "physicsworld.com", description: "Physics news (Institute of Physics)" },
   'aas-nova': { title: "AAS Nova", url: "https://aasnova.org/feed/", category: "science", source: "aasnova.org", description: "Astronomy research highlights (AAS)" },
   'plos-one': { title: "PLOS ONE", url: "https://journals.plos.org/plosone/feed/atom", category: "science", source: "journals.plos.org", description: "Open-access multidisciplinary research" },
   aeon: { title: "Aeon", url: "https://aeon.co/feed.rss", category: "science", source: "aeon.co", description: "Ideas, philosophy & science essays" },
+  'arxiv-cs-ro': { title: "arXiv cs.RO", url: "https://rss.arxiv.org/rss/cs.RO", category: "science", source: "arxiv.org", description: "arXiv Robotics preprints (cs.RO)" },
+  'arxiv-math-oc': { title: "arXiv math.OC", url: "https://rss.arxiv.org/rss/math.OC", category: "science", source: "arxiv.org", description: "arXiv Optimization & Control preprints (math.OC)" },
+  'arxiv-quant-ph': { title: "arXiv quant-ph", url: "https://rss.arxiv.org/rss/quant-ph", category: "science", source: "arxiv.org", description: "arXiv Quantum Physics preprints (quant-ph)" },
+  'arxiv-cond-mat': { title: "arXiv cond-mat", url: "https://rss.arxiv.org/rss/cond-mat", category: "science", source: "arxiv.org", description: "arXiv Condensed Matter physics preprints (cond-mat)" },
+  'arxiv-q-bio': { title: "arXiv q-bio", url: "https://rss.arxiv.org/rss/q-bio", category: "science", source: "arxiv.org", description: "arXiv Quantitative Biology preprints (q-bio)" },
+  'arxiv-eess': { title: "arXiv eess", url: "https://rss.arxiv.org/rss/eess", category: "science", source: "arxiv.org", description: "arXiv Electrical Engineering & Systems Science preprints (eess)" },
+  biorxiv: { title: "bioRxiv", url: "http://connect.biorxiv.org/biorxiv_xml.php?subject=all", category: "science", source: "biorxiv.org", description: "bioRxiv biology preprints (all subjects)" },
+  pnas: { title: "PNAS", url: "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas", category: "science", source: "pnas.org", description: "Proceedings of the National Academy of Sciences — latest research" },
+  'nature-comms': { title: "Nature Communications", url: "http://feeds.nature.com/ncomms/rss/current", category: "science", source: "nature.com", description: "Nature Communications — multidisciplinary open-access research" },
+  'arxiv-astro-ph': { title: "arXiv astro-ph", url: "https://rss.arxiv.org/rss/astro-ph", category: "space", source: "arxiv.org", description: "arXiv Astrophysics preprints (astro-ph)" },
 };
 
 const tools: McpToolExport['tools'] = [
