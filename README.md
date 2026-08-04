@@ -2,13 +2,13 @@
 
 Science Feeds MCP.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 932+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `list_feeds` | List the curated science & space feeds (id, title, category, source). Optionally filter by category (science, space) or keyword. Pass an id to read_feed. |
+| `list_feeds` | List the curated science & space feeds (id, title, category, source). Optionally filter by category (science) or keyword. Pass an id to read_feed. |
 | `read_feed` | Read a curated science & space feed by its id (from list_feeds). Returns normalized items (title, link, published, summary). Optionally filter items by keyword. |
 | `fetch_feed` | Fetch and normalize any RSS / Atom / RDF feed by URL. CF-robust: fetches directly and falls back to a proxy if the source blocks the gateway. Use list_feeds first for curated sources. |
 
@@ -26,7 +26,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 932+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -50,7 +50,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
