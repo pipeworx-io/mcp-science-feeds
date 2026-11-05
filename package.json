@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-science-feeds",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Science Feeds MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "science-feeds",
     "gatewaySlug": "science-feeds",
-    "sourceHash": "v1-699eb6cb853162dbd841c90ecb1f50de1814cfb94712bd27e76f87f3c3a90290",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-f3124b2a4afea19c00f55bd00bd903ff0b1fc94d9e7c9d4a875f79964abfd82f",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
